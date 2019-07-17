@@ -180,12 +180,10 @@ int menu(void){
 	printf("3- Checkout an item\n");
 	printf("4- Stock an item\n");
 	printf("5- Add new item or update item\n");
-	printf("6- delete item\n");
-	printf("7- Search by name\n");
 	printf("0- Exit program\n");
 	printf("> ");
 	
-	int option = getIntLimited(0,7);
+	int option = getIntLimited(0,5);
 	return option;
 }
 
@@ -238,14 +236,7 @@ void GroceryInventorySystem(void){
 			printf("could not update data files %s\n",DATAFILE);
 		}
 	}
-	else if(menuOption==6){
-		printf("Not implemented!\n");
-		pause();
-	}
-	else if(menuOption==7){
-		printf("Not implemented!\n");
-		pause();
-	}
+	
 	
 
 	if(menuOption ==0){
