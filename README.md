@@ -5,6 +5,8 @@ Implemented in C language and used file I/O for persistence storage.
 
 Command to run the program in terminal: 
 
+ ```
  gcc -o output Inventory.c   
  ./output
+ ```
 
