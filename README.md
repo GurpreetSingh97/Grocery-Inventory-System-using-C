@@ -24,7 +24,7 @@ Implemented in C language and used file I/O for persistence storage.
 
 
 # How to run the program(in terminal) 
-1.Download [Grocery-Inventory-System-using-C](https://github.com/GurpreetSingh97/Grocery-Inventory-System-using-C) repository.  
+1. Download [Grocery-Inventory-System-using-C](https://github.com/GurpreetSingh97/Grocery-Inventory-System-using-C) repository.  
 2. In terminal, open the ``Grocery-Inventory-System-using-C`` folder.  
 3. Run the following command:  
  ```
